@@ -14,7 +14,7 @@ function HotelSearchNav({ result, setResult, sendDataToParent }) {
 
     useEffect(() => {
         axios
-            .get("http://localhost:8040/api/v1/MakeYourTrip")
+            .get("http://localhost:8040/api/v1/VentureVibes")
             .then((data) => setYourTrip(data.data))
             .catch((error) => console.error("Error fetching data:", error));
     }, [result]);
