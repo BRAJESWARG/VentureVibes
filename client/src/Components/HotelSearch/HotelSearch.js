@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
+
 import "./HotelSearch.css"; // Import the external CSS file
+import ResultPage from "./DisplayPage"; // Import the result page component
+
 import Advertisement from '../Home-Section/Home'
 import BackgroundBG from '../../Assets/header-bg.svg';
 
-import ResultPage from "./DisplayPage"; // Import the result page component
 import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
@@ -137,13 +139,7 @@ function HotelSearch() {
                     value={checkIn}
                     onChange={(e) => setCheckIn(e)}
                   />
-                  {
-                    // checkIn && (
-                    // <Box  className="input-group" component="section" sx={{ p: 2, border: '1px dashed grey' }}>
-                    //   <strong>{getDayOfWeek(checkIn)}</strong>
-                    // </Box>
-                    // )
-                  }
+
                   <DatePicker
                     label="Check-out Date"
                     // defaultValue={dayjs('2022-04-17')}
@@ -151,20 +147,6 @@ function HotelSearch() {
                     value={checkOut}
                     onChange={(e) => setCheckOut(e)}
                   />
-                  {
-                    // checkOut && (
-                    //   <Box component="section" sx={{ p: 2, border: '1px dashed grey' }}>
-                    //     <strong>{getDayOfWeek(checkOut)}</strong>
-                    //   </Box>
-                    // )
-                  }
-                  {
-                    // checkOut && (
-                    //   <Box component="section" sx={{ p: 2, border: '1px dashed grey' }}>
-                    //     Nights: {nightStatus.nights}
-                    //   </Box>
-                    // )
-                  }
                 </DemoContainer>
               </LocalizationProvider>
             </div>

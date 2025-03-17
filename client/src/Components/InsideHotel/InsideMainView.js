@@ -13,24 +13,14 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 function InsideMainView({ val }) {
 
-    const images = [
-        { original: "https://picsum.photos/id/1000/600/300", thumbnail: "https://picsum.photos/id/1000/100/50", ID: 1 },
-        { original: "https://picsum.photos/id/1/600/300", thumbnail: "https://picsum.photos/id/1/100/50", ID: 2 },
-        { original: "https://picsum.photos/id/10/600/300", thumbnail: "https://picsum.photos/id/10/100/50", ID: 3 },
-        { original: "https://picsum.photos/id/100/600/300", thumbnail: "https://picsum.photos/id/100/100/50", ID: 4 },
-        { original: "https://picsum.photos/id/101/600/300", thumbnail: "https://picsum.photos/id/101/100/50", ID: 5 },
-        { original: "https://picsum.photos/id/237/600/300", thumbnail: "https://picsum.photos/id/237/100/50", ID: 6 },
-        { original: "https://picsum.photos/id/1001/600/300", thumbnail: "https://picsum.photos/id/1001/100/50", ID: 7 }
-    ];
-
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const handleNext = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % val.Images.length);
     };
 
     const handlePrev = () => {
-        setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+        setCurrentIndex((prevIndex) => (prevIndex - 1 + val.Images.length) % val.Images.length);
     };
     const formatCurrency = (value) => {
         return new Intl.NumberFormat("en-IN", {
@@ -218,7 +208,6 @@ function InsideMainView({ val }) {
                                                     <img
                                                         src="https://gos3.ibcdn.com/idea-1626422541.png"
                                                         alt="" className="HotelAddressText__HappyLocationNewIcon-sc-1lcrowf-0 bQyVyb" data-testid=""
-                                                    // style={{ margin: '0 0.5rem 0 0' }}
                                                     />
                                                     <span className="HotelAddressText__PersuationAddress-sc-1lcrowf-6 pSgkl">
                                                         <small> 4 minutes walk to Shakespear Sarani, Kolkata </small>
@@ -304,12 +293,10 @@ function InsideMainView({ val }) {
                                                                     <div className="Carouselstyles__CarouselSlide-sc-1hv3vvl-5 ccUBwm">
                                                                         <div className="dwebCommonstyles__CenteredDivWrap-sc-112ty3f-1 CaptivateBannerGallerystyles__WideImageViewAllPhotosOuter-sc-dn43rp-2 bGKfHf iBqcKR">
                                                                             <button className="prev-button" onClick={handlePrev}>❮</button>
-                                                                            {images?.length > 0 && (
+                                                                            {val.Images?.length > 0 && (
                                                                                 <img src={val.Images[currentIndex].original} alt="InsideMainView Imageiew" className="InsideMainView-image" />
-                                                                                // <img src={images[currentIndex].original} alt="InsideMainView Imageiew" className="InsideMainView-image" />
                                                                             )}
                                                                             <button className="next-button" onClick={handleNext}>❯</button>
-                                                                            {/* <img src="https://gos3.ibcdn.com/default-4-1426763954.png" alt="" className="CaptivateBannerGallerystyles__CaptivateGalleryImage-sc-dn43rp-8 CaptivateBannerGallerystyles__CaptivateGalleryImageViewAll-sc-dn43rp-12 dozrMg kTHxxY" data-testid="" /> */}
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -321,7 +308,6 @@ function InsideMainView({ val }) {
                                         </div>
                                     </div>
                                 </MDBCol>
-
 
                                 <MDBCol md='4'>
                                     <div className="UGCCardChipsstyles__UGCPersuasions-sc-1wjbdwi-0 fOsFHx">

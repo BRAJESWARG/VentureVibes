@@ -2,8 +2,6 @@ import React from "react";
 import "./InsideHotel.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-
-
 const PropertyPolicies = () => {
 
     return (
@@ -50,7 +48,6 @@ const PropertyPolicies = () => {
                             </li>
                         </ul>
                     </div>
-                    {/* <a href="/" data-testid="d-HouseRules-viewall" className="dwebCommonstyles__PrimaryLink-sc-112ty3f-11 HouseRulesstyles__MorePolicyLink-sc-5t10ue-3 bmajuy dLGoCB">View all 15 property policies</a> */}
                 </div>
             </div>
         </div>

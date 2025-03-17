@@ -2,8 +2,6 @@ import React from "react";
 import "./StayOptions.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-
-
 const StayOptions = ({ val }) => {
 
     const formatCurrency = (value) => {
@@ -69,7 +67,6 @@ const StayOptions = ({ val }) => {
                                                 <a href="/#">
                                                     <div className="Layouts__Column-sc-1yzlivq-1 Roomstyles__Column-sc-1vvh1xt-0 Roomstyles__RoomImageWrapper-sc-1vvh1xt-5 gANvcd kyMJfW fqOCbV">
                                                         <img
-                                                            // src="https://r1imghtlak.ibcdn.com/f1a506e41bb511ecbd530a58a9feac02.jpg?downsize=428:230" 
                                                             src={val.Thumbnail}
                                                             alt="Shakespeare Corporate Guest House Room Type - Standard Room"
                                                             className="Roomstyles__RoomImageStyled-sc-1vvh1xt-6 UeQCs"
@@ -97,11 +94,6 @@ const StayOptions = ({ val }) => {
                                                         </span>
                                                     </div>
                                                 </div>
-                                                {/* <div className="Layouts__Row-sc-1yzlivq-0 RoomInfoText__RoomTextInfoWrapperStyled-sc-1bg35eu-0 iRIAvw tbBNw">
-                                                    <span className="RoomInfoText__RoomInfoTextStyled-sc-1bg35eu-1 fTPZGc">
-                                                        <a href="/" className="dwebCommonstyles__PrimaryLink-sc-112ty3f-11 bmajuy" style={{ marginTop: '12px', fontWeight: 'bold' }}>View More Details</a>
-                                                    </span>
-                                                </div> */}
                                             </div>
                                         </div>
                                         <div className="RoomFlavorsstyles__RoomFlavorsContainer-sc-19znpmi-0 gIXzUC room-flavor-container" flexgrowshrink="2">
@@ -168,9 +160,6 @@ const StayOptions = ({ val }) => {
                                                     </div>
                                                     <div>
                                                         <button data-testid="selectRoomBtn" className="dwebCommonstyles__ButtonBase-sc-112ty3f-14 RoomFlavorstyles__ButtonWrapper-sc-90vv8b-16 cYhrVX fhJGsp">Select  room</button>
-                                                        {/* <a href="/" className="dwebCommonstyles__PrimaryLink-sc-112ty3f-11 bmajuy">
-                                                            <span className="RoomFlavorstyles__LoginForMore-sc-90vv8b-42 eBotoi">Login Now to unlock best deals and offers!</span>
-                                                        </a> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -229,14 +218,10 @@ const StayOptions = ({ val }) => {
                                                         <p className="RoomFlavorstyles__PerRoomNightTextStyled-sc-90vv8b-15 jvcZpx">
                                                             <strong className="RoomPerNightUIstyles__RoomCountText-sc-1clmiys-0 jvAZfA">1  room</strong>
                                                             <span style={{ paddingLeft: '2px' }}>per night</span>
-                                                            {/* 9679329707 */}
                                                         </p>
                                                     </div>
                                                     <div>
                                                         <button data-testid="selectRoomBtn" className="dwebCommonstyles__ButtonBase-sc-112ty3f-14 RoomFlavorstyles__ButtonWrapper-sc-90vv8b-16 cYhrVX fhJGsp">Select  room</button>
-                                                        {/* <a href="/" className="dwebCommonstyles__PrimaryLink-sc-112ty3f-11 bmajuy">
-                                                            <span className="RoomFlavorstyles__LoginForMore-sc-90vv8b-42 eBotoi">Login Now to unlock best deals and offers!</span>
-                                                        </a> */}
                                                     </div>
                                                 </div>
                                             </div>

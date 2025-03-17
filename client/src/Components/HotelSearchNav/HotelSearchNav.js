@@ -21,7 +21,6 @@ function HotelSearchNav({ result, setResult, sendDataToParent }) {
 
     const handleUpdate = () => {
         setFormData({ ...tempFormData });
-        // sendDataToParent(yourTrip)
         if (typeof setResult === "function") {
             setResult({ ...tempFormData });
         } else {
@@ -40,7 +39,6 @@ function HotelSearchNav({ result, setResult, sendDataToParent }) {
     const filteredData = yourTrip.filter(
         (value) => Number(value.Adults) === Number(adults) && Number(value.Child) === Number(children) && value.Category === "Hotels"
     );
-    // const [inputValue, setInputValue] = useState("");
 
     return (
         <section className="SearchWidgetUIstyles__OuterWrapDiv-sc-1x37qbj-0 edQnfF">

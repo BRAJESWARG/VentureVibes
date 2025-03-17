@@ -5,7 +5,6 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import dayjs from "dayjs";
 import HotelView from "../HotelView/HotelView";
-// import HotelSearchNav from "../HotelSearchNav/HotelSearchNav";
 
 function DisplayPage({ result, setResult }) {
 
@@ -46,19 +45,9 @@ function DisplayPage({ result, setResult }) {
     (value) => Number(value.Adults) === Number(adults) && Number(value.Child) === Number(children) && value.Category === "Hotels" && value.City === city
   );
 
-  // const [message, setMessage] = useState("");
-
-  // // Function to receive data from child
-  // const handleDataFromChild = (data) => {
-  //   setMessage(data);
-  // };
-
   return (
     <>
       <div className="displayHotelsContainer">
-
-          {/* <HotelSearchNav sendDataToParent={handleDataFromChild} result={result} /> */}
-
         <section className="SearchWidgetUIstyles__OuterWrapDiv-sc-1x37qbj-0 edQnfF">
           <div className="dwebCommonstyles__CenteredSpaceWrap-sc-112ty3f-0 SearchWidgetUIstyles__WrapperStyle-sc-1x37qbj-1 buWWlt bFIqAi">
             <div className="dwebCommonstyles__FlexItem-sc-112ty3f-4 gwpVPd">
@@ -192,39 +181,6 @@ function DisplayPage({ result, setResult }) {
           </div>
         </div>
       </section>
-
-      {/* <div className="result-container">
-        <h1>Thank You!</h1>
-        <p>Your updated booking details are as follows:</p>
-        <div className="result-box">
-          <p><strong>City:</strong> {formData.city}</p>
-          <p><strong>Adults:</strong> {formData.adults}</p>
-          <p><strong>Children:</strong> {formData.children}</p>
-          <p><strong>Nights:</strong> {formData.nights}</p>
-          <p><strong>Days:</strong> {formData.days}</p>
-          <p><strong>Check-in:</strong> {formData.checkIn}</p>
-          <p><strong>Check-out:</strong> {formData.checkOut}</p>
-        </div>
-        <div className="result-box">
-          <h2>Data from Server:</h2>
-          {filteredData.length > 0 ? (
-            filteredData.map((val, index) => (
-              <Link key={index} target="_blank" to={`/article/${val.Category}/${val.ID}`}>
-                <div>
-                  <img src={val.Image1} className="introImg1" alt={val.Title} />
-                  <div>
-                    <p>{val.Title}</p>
-                    <p>{val.Category} / {val.SubCategory}</p>
-                  </div>
-                </div>
-              </Link>
-            ))
-          ) : (
-            <p>No hotels found for your selection.</p>
-          )}
-        </div>
-        <p>We hope you enjoy your stay in {formData.city}!</p>
-      </div> */}
       <div className="result-container">
         <div className="result-box">
           {filteredData.length > 0 ? (

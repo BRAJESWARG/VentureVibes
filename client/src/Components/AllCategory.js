@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom';
 // import { ArrayofyourTrip } from './ArrayOfBlog/ArrayOfBlog';
 import axios from 'axios';
 import HotelSearch from './HotelSearch/HotelSearch';
-import InsideHotel from './InsideHotel/InsideHotel';
 
 const AllCategory = () => {
 
@@ -26,16 +25,6 @@ const AllCategory = () => {
     return (
 
         <div className='blogBody'>
-            {/* <div className='CategoryHead'>
-                {yourTrip.filter((value) => (value.ID === '1') && (value.Category === cat)).map((val, index) => (
-                    <h2 className='mainCategory' key={index} >
-                        {val.CategoryHead}
-                    </h2>
-                ))}
-                {
-                    // <hr className='mainCategoryHr' />
-                }
-            </div> */}
             <div className='contentForm'>
                 {(() => {
                     if (cat === 'Hotels') {
@@ -44,7 +33,7 @@ const AllCategory = () => {
                         );
                     } else if (cat === 'Flights') {
                         return (
-                            <InsideHotel />
+                            "Oops! Yet to Development!"
                         );
                     } else if (cat === 'Trains') {
                         return (

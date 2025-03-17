@@ -5,11 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
 import Modal from 'react-bootstrap/Modal';
-// import jsPDF from 'jspdf';
-// import { Link } from "react-router-dom";
-// import axios from 'axios';
 import Logo from '../../Assets/VentureVibes-logo.png';
 import LogoFlight from '../../Assets/LogoFlight.png';
 import LogoHotel from '../../Assets/LogoHotel.png';
@@ -18,9 +14,7 @@ import LogoBus from '../../Assets/LogoBus.png';
 import LogoCab from '../../Assets/LogoCab.png';
 import LogIN from '../LogIN&Register/LogIN';
 import Register from '../LogIN&Register/Register';
-// import { makeStyles } from "@material-ui/core";
-// import TextField from "@material-ui/core/TextField";
-// import Button from "@material-ui/core/Button";
+
 import {
   MDBContainer,
   MDBTabs,
@@ -36,20 +30,6 @@ import {
   from 'mdb-react-ui-kit';
 
 const NavComponent = () => {
-
-  // https://codesandbox.io/p/sandbox/modal-dialog-signup-s7oxw?file=%2Fsrc%2FApp.js%3A20%2C26
-  // https://codepen.io/gosnippets/pen/ExyEOBw
-  // https://react-bootstrap.github.io/docs/components/tabs
-
-  // const [yourTrip, setYourTrip] = useState([]);
-
-  // useEffect(() => {
-
-  //   axios.get(`http://localhost:8040/api/v1/MakeYourTrip`).then(
-  //     data => setYourTrip(data.data)
-  //   )
-
-  // }, [])
 
   const [isSolid, setIsSolid] = useState(false);
 
@@ -72,69 +52,6 @@ const NavComponent = () => {
     setShow(false)
     setThankYouShow(true)
   };
-
-  // let [displayData, setDisplayData] = useState(false)
-  // const [formData, setFormData] = useState(
-  //   {
-  //     firstName: "",
-  //     lastName: "",
-  //     email: "",
-  //     telephoneNumber: ""
-
-  //   }
-  // )
-
-  // function handleChange(event) {
-  //   const { name, value, type, checked } = event.target
-  //   setFormData(prevFormData => {
-  //     return {
-  //       ...prevFormData,
-  //       [name]: type === "checkbox" ? checked : value
-  //     }
-  //   })
-  // }
-
-  // function submitHandler(event) {
-  //   event.preventDefault()
-  //   console.log(formData)
-  //   setDisplayData(!displayData)
-  // }
-
-  // const handleDownload = (event) => {
-  //   event.preventDefault()
-  //   var doc = new jsPDF();
-  //   doc.text(
-  //     10,
-  //     10,
-  //     "First Name: " + formData.firstName +
-  //     "Last Name: " + formData.lastName +
-  //     "Email: " + formData.email +
-  //     "Mobile No.: " + formData.telephoneNumber
-
-
-  //   );
-
-  //   doc.save("form.pdf");
-  // };
-
-  // const displayHandler = () => {
-  //     setDisplayData((prev) => !prev)
-  // }
-
-
-
-
-  // create state variables for each input
-  // const [firstName, setFirstName] = useState("");
-  // const [lastName, setLastName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [password, setPassword] = useState("");
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   console.log(firstName, lastName, email, password);
-  //   handleClose();
-  // };
 
   const [justifyActive, setJustifyActive] = useState('tab1');;
 
@@ -160,16 +77,6 @@ const NavComponent = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            {/* <Nav.Link href="/" className='NavCategory'>Home</Nav.Link> */}
-            {
-              // yourTrip.filter((value) => value.ID === '1').map((val, index) => (
-
-              //   <Nav.Link href={`/${val.Category}`} className='NavCategory' key={index} >
-              //     <img src={LogoHotel} height="32rem" alt="LogoHotel" />
-              //     {val.Category}
-              //   </Nav.Link>
-              // ))
-            }
             <Nav.Link href='/Hotels' className='NavCategory' >
               <img src={LogoHotel} height="32rem" width='50rem' alt="LogoHotel" />
               Hotels
@@ -206,9 +113,7 @@ const NavComponent = () => {
         centered
       >
         <Modal.Header closeButton>
-
         </Modal.Header>
-
         <Modal.Body>
           <MDBContainer className="p-3 my-5 ">
 
@@ -242,103 +147,6 @@ const NavComponent = () => {
 
           </MDBContainer>
         </Modal.Body>
-        {
-          // <Modal.Body>
-          //   <form className='' onSubmit={handleSubmit}>
-          //     <input
-          //       label="First Name"
-          //       variant="filled"
-          //       required
-          //       value={firstName}
-          //       onChange={(e) => setFirstName(e.target.value)}
-          //     />
-          //     <input
-          //       label="Last Name"
-          //       variant="filled"
-          //       required
-          //       value={lastName}
-          //       onChange={(e) => setLastName(e.target.value)}
-          //     />
-          //     <input
-          //       label="Email"
-          //       variant="filled"
-          //       type="email"
-          //       required
-          //       value={email}
-          //       onChange={(e) => setEmail(e.target.value)}
-          //     />
-          //     <input
-          //       label="Password"
-          //       variant="filled"
-          //       type="password"
-          //       required
-          //       value={password}
-          //       onChange={(e) => setPassword(e.target.value)}
-          //     />
-          //     <div>
-          //       <Button variant="contained" onClick={handleClose}>
-          //         Cancel
-          //       </Button>
-          //       <Button type="submit" variant="contained" onClick={handleThankYouShow} color="primary">
-          //         Signup
-          //       </Button>
-          //     </div>
-          //   </form>
-          //   {
-          //     // <form
-          //     //   onSubmit={submitHandler}
-          //     // >
-
-          //     //   <div className="name-row">
-          //     //     <input
-          //     //       type="text"
-          //     //       required
-          //     //       placeholder="First Name"
-          //     //       onChange={handleChange}
-          //     //       name="firstName"
-          //     //       value={formData.firstName}
-          //     //     />
-          //     //     <input
-          //     //       type="text"
-          //     //       required
-          //     //       placeholder="Last Name"
-          //     //       onChange={handleChange}
-          //     //       name="lastName"
-          //     //       value={formData.lastName}
-          //     //     />
-          //     //   </div>
-
-          //     //   <div className="contact-row">
-          //     //     <input
-          //     //       type="email"
-          //     //       required
-          //     //       placeholder="Email Address"
-          //     //       onChange={handleChange}
-          //     //       name="email"
-          //     //       value={formData.email}
-          //     //     />
-
-          //     //     <input
-          //     //       type="Telephone Number"
-          //     //       placeholder="Telephone Number"
-          //     //       onChange={handleChange}
-          //     //       name="telephoneNumber"
-          //     //       value={formData.telephoneNumber}
-          //     //     />
-          //     //   </div>
-
-          //     //   <Modal.Footer>
-          //     //     <Button variant="secondary" onClick={handleClose}>
-          //     //       Close
-          //     //     </Button>
-          //     //     <Button variant="primary" onClick={handleThankYouShow} className="btn" type="submit">
-          //     //       Submit
-          //     //     </Button>
-          //     //   </Modal.Footer>
-          //     // </form>
-          //   }
-          // </Modal.Body>
-        }
       </Modal>
       <Modal
         show={thankYoushow}
@@ -346,12 +154,10 @@ const NavComponent = () => {
         backdrop="static"
         keyboard={false}
       >
-
         <Modal.Body>
           <h1>Thank You</h1>
         </Modal.Body>
         <Modal.Footer>
-
           <Button variant="primary" onClick={handleThankYouClose}>
             Close
           </Button>

@@ -13,16 +13,6 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const HotelView = ({ val, index }) => {
 
-  // const images = [
-  //   { original: "https://picsum.photos/id/1000/600/300", thumbnail: "https://picsum.photos/id/1000/100/50", ID: 1 },
-  //   { original: "https://picsum.photos/id/1/600/300", thumbnail: "https://picsum.photos/id/1/100/50", ID: 2 },
-  //   { original: "https://picsum.photos/id/10/600/300", thumbnail: "https://picsum.photos/id/10/100/50", ID: 3 },
-  //   { original: "https://picsum.photos/id/100/600/300", thumbnail: "https://picsum.photos/id/100/100/50", ID: 4 },
-  //   { original: "https://picsum.photos/id/101/600/300", thumbnail: "https://picsum.photos/id/101/100/50", ID: 5 },
-  //   { original: "https://picsum.photos/id/237/600/300", thumbnail: "https://picsum.photos/id/237/100/50", ID: 6 },
-  //   { original: "https://picsum.photos/id/1001/600/300", thumbnail: "https://picsum.photos/id/1001/100/50", ID: 7 }
-  // ];
-
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleNext = () => {
@@ -62,21 +52,11 @@ const HotelView = ({ val, index }) => {
               <div className='box'>
                 <div className="gallery-containe">
                   <button className="prev-button" onClick={handlePrev}>❮</button>
-                  {/* <img src={images[currentIndex].original} alt="Main View" className="main-image" /> */}
                   {val.Images?.length > 0 && (
                     <img src={val.Images[currentIndex].original} alt="Main View" className="main-image" />
                   )}
                   <button className="next-button" onClick={handleNext}>❯</button>
                   <div className="thumbnails">
-                    {/* {images.filter((value) => (value.ID <= 4)).map((image, index) => (
-                    <img
-                      key={index}
-                      src={image.thumbnail}
-                      alt={`Thumbnail ${index}`}
-                      className="thumbnail"
-                      onMouseEnter={() => setCurrentIndex(index)}
-                    />
-                  ))} */}
                     {val.Images?.filter((value) => value.ID <= 4).map((image, index) => (
                       <img
                         key={index}
@@ -92,17 +72,6 @@ const HotelView = ({ val, index }) => {
             </MDBCol>
             <MDBCol md='5' className='Info-Component'>
               <MDBCardBody className='Info'>
-                {/* <MDBCardText className='Ratings'>
-                <span className='starRatings'>
-                  5
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 16" width="1rem" height="1rem" margin="0 0.2rem 0 0" className="HappyRatingStarIcon-sc-qukodd-0 knROuZ"><path fill-rule="evenodd" d="m8.172 13.282 3.964 2.434c.726.446 1.614-.213 1.423-1.047l-1.05-4.577 3.505-3.084c.64-.562.296-1.629-.545-1.696l-4.613-.398L9.051.589c-.325-.785-1.432-.785-1.757 0L5.489 4.904l-4.613.398C.036 5.37-.31 6.436.33 6.999l3.505 3.083-1.05 4.577c-.191.834.697 1.494 1.423 1.048l3.963-2.425z"></path></svg>
-                  <span className="fa fa-star checked"></span>
-                  <i style={{ fontSize: '5px' }} className="fa">&#xf111;</i>
-                  &nbsp;&nbsp;Hotel
-                </span>
-                <span>1271 Ratings</span>
-              </MDBCardText> */}
-
                 <MDBCardText>
                   <div className="HotelCardV2styles__SRPCardRatingWrapper-sc-6przws-10 iJZWvD">
                     <div className="HotelCardV2styles__CardTopWrapper-sc-6przws-47 starRatingCard">

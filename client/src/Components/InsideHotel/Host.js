@@ -2,8 +2,6 @@ import React from "react";
 import "./InsideHotel.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-
-
 const Host = () => {
 
     return (
@@ -38,13 +36,11 @@ const Host = () => {
 
                                     Interaction With Guests:
                                     Though Saikat is not physically present at the property, he is always a phone call away for her guests.</p>
-                                {/* <a href="/">Read More</a> */}
                             </div>
                         </div>
                         <span className="HostInfoUIstyles__HostImg-sc-b0b7rv-5 mPDAg">
                             <div className="dwebCommonstyles__CenteredDivWrap-sc-112ty3f-1 UserAvatarstyles__WrapperDiv-sc-1twy7zx-0 bGKfHf hJDQRm">
                                 <img
-                                    // src="https://gos3.ibcdn.com/d265538cb70711ebb82a0242ac110004.png" 
                                     src="https://media.licdn.com/dms/image/v2/C4E03AQHS9V5R479rNQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1593122776119?e=1747267200&v=beta&t=PDiWbvfuqHYSS7tFGS68PzkA1HQUfYuZa954T0s2AeE"
                                     alt="" className="UserAvatarstyles__ImgStyles-sc-1twy7zx-2 hPPHIS" data-testid=""
                                 />

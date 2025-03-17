@@ -13,18 +13,10 @@ function Testimonials(props) {
         />
     ));
 
-
-    // https://www.npmjs.com/package/react-multi-carousel
-    // https://github.com/nshntarora/Indian-Cities-JSON/blob/master/a-detailed-version.json
-
-
     return (
         <div className="Testimonials-container">
             <div className="Testimonials">
                 <div>
-                    {/* <hr className="hr-left" />
-                    <hr className="hr-right" />
-                    &nbsp;&nbsp;<h1 className="Testimonials-text">Point. Pick. Stay.</h1>&nbsp;&nbsp; */}
                     <h1 className="Testimonials-text">Point. Pick. Stay.</h1>
                 </div>
                 <Carousel
@@ -43,9 +35,8 @@ function Testimonials(props) {
                     transitionDuration={500}
                     // containerClass="carousel-container"
                     removeArrowOnDeviceType={["tablet", "mobile"]}
+                    // itemClass="carousel-item-padding-40-px"
                     dotListClass="custom-dot-list-style"
-                // itemClass="carousel-item-padding-40-px"
-
                 >
                     {product}
                 </Carousel>
