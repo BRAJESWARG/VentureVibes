@@ -1,0 +1,248 @@
+.SimilarProperties {
+    display: flex;
+    justify-content: center;
+}
+
+.SimilarProperties-container {
+    width: 70%;
+}
+
+.CurrentHotelCard {
+    background: rgb(255, 253, 233) !important;
+    height: 680px !important;
+}
+
+.buWWlt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eeTyKB {
+    line-height: normal;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.gwpVPdB {
+    display: flex;
+}
+
+.iTFBGe {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.bGKfHf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EtZNA {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 50% 0px 0px 50%;
+}
+
+.dRhXgW {
+    fill: rgb(209, 229, 255);
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.bWgSVG {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 0px 50% 50% 0px;
+}
+
+.jSLSL {
+    fill: rgb(34, 116, 224);
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.dNFRNM {
+    margin: 2.5rem 0px 0px;
+    background: rgb(255, 255, 255);
+    /* border-radius: 1.2rem; */
+    display: flex;
+    width: 100%;
+    max-height: 680px;
+}
+
+.guwHAy {
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(210, 210, 210) 10px 0px 16px 0px;
+    border-bottom: 1px solid rgb(232, 243, 255);
+    width: 25%;
+}
+
+.CardTitle {
+    padding: 1rem;
+}
+
+.Card-Img {
+    margin: 1rem;
+    width: 300px !important;
+    height: 200px !important;
+}
+
+.lfQUri {
+    display: flex;
+    align-items: center;
+}
+
+.kAxHXK {
+    padding: 0rem 0rem 1rem 0px;
+}
+
+.bDXZVh {
+    border: 1px solid rgb(232, 243, 255);
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.2rem;
+    text-transform: uppercase;
+    margin-left: 0.5rem;
+}
+
+.jcodLa {
+    min-height: 4.8rem;
+}
+
+.chNQWg {
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 25.5rem;
+    font-size: 1rem;
+}
+
+.chNQWg>a {
+    text-decoration: none;
+}
+
+.eWvefQ {
+    font-size: 0.8rem;
+    color: rgb(119, 119, 119);
+}
+
+.fkXUqg {
+    border-top: 1px solid rgb(232, 243, 255);
+    border-bottom: 1px solid rgb(232, 243, 255);
+    padding: 0.5rem 0px 0.5rem;
+    min-height: 100px;
+}
+
+.jdzNHa {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 1rem;
+    font-size: 0.8rem;
+}
+
+.icZKdB {
+    padding: 0px 1rem 0px 0px;
+    display: flex;
+}
+
+.bpsfFUB {
+    width: 1rem;
+    height: 1rem;
+    margin: 0px;
+    margin-top: 4px;
+}
+
+.bpsfFU g path:last-child {
+    fill: rgb(119, 119, 119);
+}
+
+.icZKdB {
+    padding: 0px 1rem 0px 0px;
+    display: flex;
+}
+
+.fSiKho {
+    width: 1rem;
+    height: 1rem;
+    fill: rgb(119, 119, 119);
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.gANvcd {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.dvgTIT {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2.5rem;
+}
+
+.heUzDZ {
+    line-height: normal;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+}
+
+.cYhrVX {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(255, 109, 56);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border-radius: 1.2rem;
+    font-family: Rubik;
+}
+
+.cfBEgO {
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 1.5rem; */
+}
+
+.gyWimb {
+    color: rgb(119, 119, 119);
+    text-decoration: line-through;
+    padding-bottom: 0.5rem;
+}
+
+.GJIrM {
+    line-height: normal;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+.bhPWYy {
+    color: rgb(119, 119, 119);
+}
+
+/* .Carousel{
+    z-index: 100;
+} */
+.similarHotelCardCointaner {
+    width: 75%;
+    padding: 10px 10px 10px 2px;
+}
+
+.similarHotelCarousel>ul>li {
+    width: 34% !important;
+    margin-right: 10px;
+}
+.similarHotelCard {
+    background: rgb(245, 245, 244) !important;
+    max-height: 660px;
+}

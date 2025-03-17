@@ -1,0 +1,94 @@
+/* INTRO COMPONENT CSS */
+.Intro {
+    display: flex;
+    justify-content: center;
+    padding-top: 4em;
+}
+
+.IntroComponent {
+    width: 70%;
+}
+
+.IntroContainer-A {
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 20px;
+    height: 430px;
+}
+
+.IntroContainer-B {
+    display: flex;
+    margin-top: 20px;
+    height: 430px;
+}
+
+.IntroContainer-1 {
+    /* border: 5px solid yellow; */
+    width: 33%;
+}
+
+.IntroContainer-2 {
+    /* border: 5px solid green; */
+    width: 33%;
+
+}
+
+.IntroContainer-A>.IntroContainer-2 {
+    margin-left: 15px;
+}
+
+.IntroContainer-B>.IntroContainer-2 {
+    margin-right: 15px;
+}
+
+.introImg1 {
+    width: 100%;
+    height: 100%;
+}
+
+.introContent1 {
+    position: relative;
+    top: -45px;
+    left: 20px;
+    color: aliceblue;
+    /* color: cyan; */
+
+}
+
+.introTitle1 {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+
+.box {
+    position: relative;
+}
+
+.introImg2 {
+    width: 100%;
+    height: 205px;
+    margin-bottom: 15px;
+}
+
+.introTitle2 {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.introContent2 {
+    position: absolute;
+    top: 170px;
+    right: 112px;
+    color: white;
+    font-size: 16px;
+    width: 300px;
+
+}
+
+.CommonImg {
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}

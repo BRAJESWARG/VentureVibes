@@ -1,0 +1,236 @@
+.Testimonials-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 4em;
+}
+
+h1 {
+    margin: 0rem auto 6rem;
+    padding-top: 4rem;
+    color: antiquewhite;
+    display: inline-block;
+}
+
+.product--image {
+    width: 8em;
+    height: 8em;
+    object-fit: cover;
+    position: relative;
+    margin-top: -2rem;
+    z-index: +10;
+}
+
+.product--card {
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* max-width: 350px; */
+    /* margin: auto 1rem 0; */
+    margin-left: 2.8rem;
+    margin-right: 0;
+    text-align: center;
+    font-family: arial;
+    background-color: aliceblue;
+    /* height: 300px; */
+}
+
+.Carousel {
+    /* justify-content: center; */
+    height: 300px;
+    /* margin-top: -5rem; */
+}
+
+.Carousel>ul>li {
+    padding: 20px;
+    width: 395px !important;
+    border-radius: 10px;
+}
+
+/* .Carousel>ul {
+    transform: translate3d(-1180px, 0px, 0px) !important;
+    margin-left: 80px;
+} */
+
+/* .react-multi-carousel-list {
+    justify-content: center;
+  } */
+.Testimonials {
+    /* background: dodgerblue; */
+    height: 500px;
+    padding: 0 1rem 2rem;
+    width: 70%;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Testimonials-text {
+    line-height: 2rem;
+}
+
+.hr-left {
+    position: absolute;
+    width: 20%;
+    /* font-weight: 1000; */
+    margin-left: 10rem;
+    margin-top: 5rem;
+    border: solid wheat;
+}
+
+.hr-right {
+    position: absolute;
+    width: 20%;
+    /* font-weight: 1000; */
+    margin-left: 55rem;
+    margin-top: 5rem;
+    border: solid wheat;
+}
+
+.product--card>img {
+    border-radius: 100%;
+    border: 4px solid wheat;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.bg-image>img {
+    border-radius: 4px;
+    width: 374px;
+    height: 156px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+}
+
+.description {
+    padding: 0.5em 0.5em 0;
+    text-align: justify;
+}
+
+.react-multiple-carousel__arrow {
+    background-color: white !important;
+    min-width: 35px !important;
+    min-height: 35px !important;
+}
+
+.react-multiple-carousel__arrow--right {
+    right: calc(0.4% + 1px) !important;
+}
+
+.react-multiple-carousel__arrow--left {
+    left: calc(0.4% + 1px) !important;
+}
+
+.react-multiple-carousel__arrow::before {
+    color: #000 !important;
+}
+
+@media screen and (max-width: 320.9px) {
+    hr {
+        display: none;
+    }
+
+    .product--card {
+        max-width: 250px;
+        margin: auto 1rem 0;
+    }
+
+    .Carousel {
+        /* justify-content: center; */
+        display: block;
+        margin-right: auto;
+        height: 515px;
+    }
+
+    .dash {
+        display: none;
+    }
+
+    h1 {
+        margin: -4rem auto 6rem;
+    }
+}
+
+.Testimonials {
+    height: 420px;
+}
+
+@media screen and (min-width: 320.9px) and (max-width: 375.9px) {
+    .product--card {
+        max-width: 250px;
+        margin: auto 1rem 0;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .Carousel {
+        /* justify-content: center; */
+        display: block;
+        margin-left: 9%;
+        margin-right: auto;
+        height: 515px;
+    }
+
+    .dash {
+        display: none;
+    }
+
+    h1 {
+        margin: -4rem auto 6rem;
+    }
+
+    .Testimonials {
+        height: 540px;
+    }
+}
+
+@media screen and (min-width: 375.9px) and (max-width: 767.9px) {
+    .product--card {
+        max-width: 250px;
+        margin: auto 1rem 0;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .Carousel {
+        /* justify-content: center; */
+        display: block;
+        margin-left: 16%;
+        margin-right: auto;
+        height: 515px;
+    }
+
+    .dash {
+        display: none;
+    }
+
+    h1 {
+        margin: -4rem auto 6rem;
+    }
+
+    .Testimonials {
+        height: 540px;
+    }
+}
+
+@media screen and (min-width: 375.9px) and (max-width: 767.9px) {
+    h1 {
+        margin: -2rem auto 6rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.9px) {
+    .product--card {
+        margin: auto 0.6rem 0;
+    }
+
+    hr {
+        display: none;
+    }
+}

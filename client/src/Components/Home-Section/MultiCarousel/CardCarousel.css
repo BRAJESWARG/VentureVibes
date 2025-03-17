@@ -1,0 +1,85 @@
+.MultiCard-container {
+    align-items: center;
+}
+
+.MultiCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 70%;
+    padding-bottom: 4rem;
+    padding-right: 2rem;
+    /* padding-left: 2rem; */
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.MultiCard>.carousel {
+    margin-left: 2rem !important;
+}
+
+.MultiCard>h1 {
+    color: rgb(20, 24, 35);
+    /* font: 400 1.2rem / 1.33 Rubik, Arial, sans-serif; */
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: 2rem !important;
+    padding-top: 2rem !important;
+}
+
+.card-group {
+    /*     width: 40%; */
+    margin-right: 10px;
+
+}
+
+.MultiCard-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 4em;
+}
+
+.card-group>.card {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 2px blueviolet solid;
+}
+
+.MultiCarousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CardImg {
+    height: 200px !important;
+    width: 40% !important;
+    /* padding: 10px;
+    border: 2px blueviolet solid; */
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card-footer {
+    margin-top: 80px;
+    margin-left: 10px;
+    line-height: normal;
+    font-weight: 500;
+    padding-top: 1rem;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -55px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: blueviolet !important;
+}

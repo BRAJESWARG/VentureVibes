@@ -1,0 +1,288 @@
+* {
+  text-decoration: none;
+}
+
+.App {
+  background-color: aliceblue;
+  z-index: -10;
+}
+
+.container-fluid {
+  height: 100% !important;
+}
+
+/* .background-bg {
+  width: 100%;
+  height: auto; */
+/*   position: fixed; */
+/* opacity: 1;
+  background-repeat: no-repeat;
+  z-index: -1;
+} */
+
+.the {
+  font-size: 30px;
+  transform: rotate(270deg);
+  margin-top: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.siren {
+  font-size: 60px;
+  font-weight: bolder;
+  margin: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+/* CSS FOR BLOG CONTENTS */
+.blogBody {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* margin-top: -15rem; */
+}
+
+.contentForm {
+  margin-top: 0rem;
+}
+
+.mainCategory {
+  /* text-align: left;
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-weight: 500; */
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: var(--font-family-default);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.mainCategoryHr {
+  width: 190px;
+  background-color: red;
+  height: 2px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
+
+.blogContainer {
+  width: 550px;
+  height: 230px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.blogImg {
+  width: 250px;
+  height: 220px;
+}
+
+.blogContent {
+  margin-left: 10px;
+  height: 220px;
+}
+
+.blogTitle {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  color: black;
+}
+
+.blogDetail {
+  color: rgb(117, 114, 114);
+  text-align: justify;
+}
+
+.blogCategory {
+  font-weight: 900;
+  font-size: 20px;
+  color: grey;
+  text-align: left;
+}
+
+.blogLine {
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* CSS FOR TOP POST BLOG */
+.LatestContainer {
+  width: 420px;
+  height: 420px;
+}
+
+.LatestImg {
+  width: 420px;
+  height: 320px;
+}
+
+.flexBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.LatestId {
+  font-size: 45px;
+  font-weight: 600;
+  color: silver;
+}
+
+
+
+.SubContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 420px;
+}
+
+.SubImg {
+  width: 150px;
+  height: 150px;
+}
+
+
+
+/* CSS FOR ADVERTISEMENT */
+.advertisement {
+  border: 3px solid silver;
+  font-size: 30px;
+  font-weight: 600px;
+  height: 400px;
+  padding-top: 50%;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+/* CSS FOR HOME PAGE */
+
+/* THE LATEST COMPONENT CSS */
+.TheLatestContainer {
+  margin-top: 60px;
+}
+
+.TheLatestBox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.TheLatestContent {
+  width: 400px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.TheLatestImg {
+  width: 400px;
+  height: 250px;
+}
+
+.title {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  height: 50px;
+}
+
+.body {
+  color: grey;
+  text-align: left;
+}
+
+.btn {
+  text-align: left;
+  color: blue;
+  border-radius: 10px;
+  padding: 5px;
+
+}
+
+.btn:active {
+  font-weight: bold;
+  color: green;
+}
+
+
+
+/* THE LATEST STORIES CSS */
+.TheLatestStories {
+  width: 400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 30px
+}
+
+.TheLatestStoriesHr {
+  height: 220px;
+  margin-top: 40px;
+}
+
+
+
+/* CSS FOR ARTICLE COMPONENT*/
+.articleContainer {
+  width: 600px;
+  margin: auto auto;
+}
+
+.articleTitle {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.articleProfileImg {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.articleProfileBox {
+  display: flex;
+  justify-content: center;
+
+}
+
+.articleImg {
+  width: 600px;
+  height: 450px;
+  margin-top: 30px;
+}
+
+.MoreFromSirenContainer {
+  margin-top: 100px;
+  background-color: whitesmoke;
+}
+
+.Footer-Container {
+  display: flex;
+  justify-content: right;
+  color: dodgerblue;
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

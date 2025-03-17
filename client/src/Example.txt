@@ -1,0 +1,48 @@
+// ParentComponent.js
+import React, { useState } from "react";
+import ChildComponent from "./ChildComponent";
+
+const ParentComponent = () => {
+  const [message, setMessage] = useState("");
+
+  // Function to receive data from child
+  const handleDataFromChild = (data) => {
+    setMessage(data);
+  };
+
+  return (
+    <div>
+      <h2>Parent Component</h2>
+      <p>Message from Child: {message}</p>
+      <ChildComponent sendDataToParent={handleDataFromChild} />
+    </div>
+  );
+};
+
+export default ParentComponent;
+
+
+        <HotelSearchNav sendDataToParent={handleDataFromChild} result={result} />
+
+
+// ChildComponent.js
+import React, { useState } from "react";
+
+const ChildComponent = ({ sendDataToParent }) => {
+  const [inputValue, setInputValue] = useState("");
+
+  return (
+    <div>
+      <h3>Child Component</h3>
+      <input
+        type="text"
+        value={inputValue}
+        onChange={(e) => setInputValue(e.target.value)}
+        placeholder="Type something..."
+      />
+      <button onClick={() => sendDataToParent(inputValue)}>Send Data</button>
+    </div>
+  );
+};
+
+export default ChildComponent;

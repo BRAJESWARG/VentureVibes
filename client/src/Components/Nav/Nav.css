@@ -1,0 +1,85 @@
+.navContainer {
+  font-size: 1rem;
+  /* height: auto; */
+  width: 100%;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  background-repeat: no-repeat;
+  transition: background-color whitesmoke 0.3s ease !important;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px 32px 0px 0px;
+  z-index: 900;
+  height: 4rem;
+
+}
+
+.CategoryComponents {
+  padding-left: 5rem !important;
+}
+
+.NavCategory {
+  line-height: normal;
+  font-size: 1.2rem !important;
+  font-weight: 500 !important;
+  display: flex !important;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-right: 30px;
+  padding: 20px 0px !important;
+  position: relative;
+  height: 100%;
+  color: rgb(113, 113, 113) !important;
+}
+
+.NavCategory:active {
+  border-bottom: 3px solid red;
+
+}
+
+.login-button {
+  background-color: rgb(39, 115, 230) !important;
+  color: whitesmoke !important;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 6px 0px;
+
+}
+
+.login-button:hover {
+  color: rgb(39, 115, 230) !important;
+  background-color: whitesmoke !important;
+  border: rgb(39, 115, 230) 2px solid !important;
+}
+
+.NavCategory:active {
+  color: white;
+  text-decoration: underline;
+}
+
+.navHr {
+  text-decoration: underline !important;
+
+}
+
+
+/* .navbar {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  transition: background-color 0.3s ease; 
+} */
+
+.transparent {
+  /* background-color: transparent; */
+  background-color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 6px 0px;
+}
+
+.solid {
+  /* background-color: #f36969; */
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 6px 0px;
+}

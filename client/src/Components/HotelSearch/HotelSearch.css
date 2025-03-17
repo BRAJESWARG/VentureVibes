@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.hotelSearch-container {
+  margin-top: -15em;
+  position: relative;
+  z-index: +2;
+}
+
+.background-bg {
+  width: 100%;
+  height: auto;
+  /*   position: fixed; */
+  opacity: 1;
+  background-repeat: no-repeat;
+  z-index: -10;
+  margin-top: -2em;
+}
+
+.CategoryHead {
+  display: flex;
+  justify-content: center;
+  color: antiquewhite;
+  /* margin-top: -14em; */
+}
+
+/* Container */
+.container {
+  padding: 12px;
+  max-width: 500px;
+  margin: 25px auto;
+  background-color: #f9f9f9;
+  border-radius: 22px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+}
+
+.LocalizationProvider {
+  margin-top: -8px;
+}
+
+/* Heading */
+.heading {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Input Group */
+.input-group {
+  /* margin-bottom: 20px; */
+  width: auto !important;
+  /* height: 8rem !important; */
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button */
+.hotelSearch {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 3.4rem;
+}
+
+.hotelSearchButton {
+  display: block;
+  width: 20%;
+  height: 70px;
+  padding: 12px;
+  font-size: 25px;
+  font-weight: 600 !important;
+  color: #fff;
+  background-color: darkorange;
+  border: none;
+  cursor: pointer;
+  border-radius: 52px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Result Page Styles */
+.result-container {
+  display: flex;
+  justify-content: center;
+}
+
+.result-heading {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.result-text {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.result-box {
+  /* padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; */
+  position: relative;
+  margin-top: 12rem;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.result-message {
+  font-size: 16px;
+  color: #666;
+}
+
+.extra-section {
+  /* display: flex;
+    justify-content: space-evenly; */
+  color: green;
+  display: grid;
+  grid-template-columns: 22rem 18rem 20rem 17rem;
+}
