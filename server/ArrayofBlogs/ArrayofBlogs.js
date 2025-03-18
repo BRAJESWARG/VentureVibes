@@ -1320,8 +1320,8 @@ const ArrayofBlogs = [
             },
             {
                 ID: 2,
-                original: "",
-                thumbnail: ""
+                original: "https://www.hotels-dubai.org/data/Photos/OriginalPhoto/5797/579769/579769263/photo-millennium-plaza-hotel-dubai-79.JPEG",
+                thumbnail: "https://www.hotels-dubai.org/data/Photos/OriginalPhoto/5797/579769/579769263/photo-millennium-plaza-hotel-dubai-79.JPEG"
             },
             {
                 ID: 3,
