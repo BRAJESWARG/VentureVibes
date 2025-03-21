@@ -136,30 +136,30 @@ function DisplayPage({ result, setResult }) {
         </section>
 
       </div>
-      <section class="SRPstyles__MainSectionWrapper-sc-1uttzk9-0 bOvdea">
-        <div id="navigation_header" class="dwebCommonstyles__BaseColumnWrap-sc-112ty3f-2 civGJZ">
-          <div class="NavigationHeaderstyles__QuickFiltersAndSortingOuterWrap-sc-mqv87k-1 UUNyH">
-            <div class="NavigationHeaderstyles__QuickFiltersAndSortingWrapper-sc-mqv87k-2 eWVEtz">
-              <div class="NavigationHeaderstyles__QuickFiltersWrapper-sc-mqv87k-3 kkGDxw">
-                <span class="SortingNewUIstyles__FontBoldSpan-sc-16hh811-2 klKnqp">Sort By:</span>
-                <li class="SortingNewUIstyles__SortingFilterItem-sc-16hh811-0 kkTVCa">
-                  <span class="SortingNewUIstyles__FilterName-sc-16hh811-1 hWpyfY">Most Popular</span>
+      <section className="SRPstyles__MainSectionWrapper-sc-1uttzk9-0 bOvdea">
+        <div id="navigation_header" className="dwebCommonstyles__BaseColumnWrap-sc-112ty3f-2 civGJZ">
+          <div className="NavigationHeaderstyles__QuickFiltersAndSortingOuterWrap-sc-mqv87k-1 UUNyH">
+            <div className="NavigationHeaderstyles__QuickFiltersAndSortingWrapper-sc-mqv87k-2 eWVEtz">
+              <div className="NavigationHeaderstyles__QuickFiltersWrapper-sc-mqv87k-3 kkGDxw">
+                <span className="SortingNewUIstyles__FontBoldSpan-sc-16hh811-2 klKnqp">Sort By:</span>
+                <li className="SortingNewUIstyles__SortingFilterItem-sc-16hh811-0 kkTVCa">
+                  <span className="SortingNewUIstyles__FilterName-sc-16hh811-1 hWpyfY">Most Popular</span>
                 </li>
-                <li class="SortingNewUIstyles__SortingFilterItem-sc-16hh811-0 hYyKIP">
-                  <span class="SortingNewUIstyles__FilterName-sc-16hh811-1 hWpyfY">Price - Low to High</span>
+                <li className="SortingNewUIstyles__SortingFilterItem-sc-16hh811-0 hYyKIP">
+                  <span className="SortingNewUIstyles__FilterName-sc-16hh811-1 hWpyfY">Price - Low to High</span>
                 </li>
-                <li class="SortingNewUIstyles__SortingFilterItem-sc-16hh811-0 hYyKIP">
-                  <span class="SortingNewUIstyles__FilterName-sc-16hh811-1 hWpyfY">Price - High to Low</span>
+                <li className="SortingNewUIstyles__SortingFilterItem-sc-16hh811-0 hYyKIP">
+                  <span className="SortingNewUIstyles__FilterName-sc-16hh811-1 hWpyfY">Price - High to Low</span>
                 </li>
-                <li class="SortingNewUIstyles__SortingFilterItem-sc-16hh811-0 hYyKIP">
-                  <span class="SortingNewUIstyles__FilterName-sc-16hh811-1 hWpyfY">Goibibo Reviews - Highest First</span>
+                <li className="SortingNewUIstyles__SortingFilterItem-sc-16hh811-0 hYyKIP">
+                  <span className="SortingNewUIstyles__FilterName-sc-16hh811-1 hWpyfY">Goibibo Reviews - Highest First</span>
                 </li>
               </div>
-              <div class="dwebCommonstyles__CenteredSpaceWrap-sc-112ty3f-0 NavigationHeaderstyles__LocationAndSortByOuterWrap-sc-mqv87k-6 buWWlt ihaObk">
-                <div aria-expanded="false" aria-haspopup="listbox" aria-labelledby="downshift-2-label" class="LocationAndHotelSearchstyles__AutocompleteWrapper-sc-14hv01r-2 lgemGX">
-                  <label id="downshift-2-label" for="downshift-2-input" class="LocationAndHotelSearchstyles__SearchLabel-sc-14hv01r-0 bUCobe">Search Location Or Hotel Name</label>
-                  <div class="LocationAndHotelSearchstyles__InputWrapper-sc-14hv01r-3 efLeCM">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#777777" width="1.6rem" height="1.6rem" class="HappySearchIcon-sc-9cg8c3-0 fXDtaz">
+              <div className="dwebCommonstyles__CenteredSpaceWrap-sc-112ty3f-0 NavigationHeaderstyles__LocationAndSortByOuterWrap-sc-mqv87k-6 buWWlt ihaObk">
+                <div aria-expanded="false" aria-haspopup="listbox" aria-labelledby="downshift-2-label" className="LocationAndHotelSearchstyles__AutocompleteWrapper-sc-14hv01r-2 lgemGX">
+                  <label id="downshift-2-label" for="downshift-2-input" className="LocationAndHotelSearchstyles__SearchLabel-sc-14hv01r-0 bUCobe">Search Location Or Hotel Name</label>
+                  <div className="LocationAndHotelSearchstyles__InputWrapper-sc-14hv01r-3 efLeCM">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#777777" width="1.6rem" height="1.6rem" className="HappySearchIcon-sc-9cg8c3-0 fXDtaz">
                       <path d="m15.61 13.731-3.095-3.096a6.84 6.84 0 0 0-1.348-9.084 6.83 6.83 0 0 0-9.166.452 6.84 6.84 0 0 0-.449 9.172 6.83 6.83 0 0 0 9.079 1.346l3.095 3.095c.524.512 1.36.512 1.884 0 .52-.52.52-1.364 0-1.885M6.84 2.008a4.83 4.83 0 0 1 4.83 4.833 4.831 4.831 0 1 1-9.661 0 4.837 4.837 0 0 1 4.83-4.833z">
                       </path>
                     </svg>
@@ -169,11 +169,11 @@ function DisplayPage({ result, setResult }) {
                       autocomplete="off"
                       id="downshift-2-input"
                       placeholder="Search Location or Property Name"
-                      class="LocationAndHotelSearchstyles__SearchInput-sc-14hv01r-1 jjmpxR"
+                      className="LocationAndHotelSearchstyles__SearchInput-sc-14hv01r-1 jjmpxR"
                       value=""
                     />
                   </div>
-                  <ul id="downshift-2-menu" role="listbox" aria-labelledby="downshift-2-label" class="LocationAndHotelSearchstyles__Menu-sc-14hv01r-4 kpMBQF">
+                  <ul id="downshift-2-menu" role="listbox" aria-labelledby="downshift-2-label" className="LocationAndHotelSearchstyles__Menu-sc-14hv01r-4 kpMBQF">
                   </ul>
                 </div>
               </div>
