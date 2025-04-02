@@ -286,3 +286,9 @@
   padding: 10px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+@media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
+  .blogBody {
+    margin-top: 4rem;
+  }
+}

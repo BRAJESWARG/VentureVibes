@@ -61,7 +61,7 @@ const StayOptions = ({ val }) => {
                                     <div className="Roomstyles__LeftDiv-sc-1vvh1xt-8 dgUxQa">
                                         <div id="2312upselldd">
                                         </div>
-                                        <div width="39.7%" className="Roomstyles__RoomTypeStyledWrapper-sc-1vvh1xt-2 dbEVNG">
+                                        <div className="Roomstyles__RoomTypeStyledWrapper-sc-1vvh1xt-2 dbEVNG">
                                             <div filterheight="0" className="Roomstyles__RoomTypeStickyWrap-sc-1vvh1xt-4 KdsaA">
                                                 <h3 filterheight="0" className="Roomstyles__RoomTypeTextStyled-sc-1vvh1xt-3 hEXjuX">Standard Room</h3>
                                                 <a href="/#">
@@ -96,7 +96,7 @@ const StayOptions = ({ val }) => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="RoomFlavorsstyles__RoomFlavorsContainer-sc-19znpmi-0 gIXzUC room-flavor-container" flexgrowshrink="2">
+                                        <div className="RoomFlavorsstyles__RoomFlavorsContainer-sc-19znpmi-0 gIXzUCB room-flavor-container" flexgrowshrink="2">
                                             <div data-testid="detail-roomSelection-room-flavor" className="RoomFlavorstyles__RoomFlavorWrap-sc-90vv8b-9 gIPmqX">
                                                 <div className="RoomFlavorstyles__RoomFlavorColumn-sc-90vv8b-0 gpDZNN">
                                                     <div className="RoomFlavorstyles__RoomHeadingContainer-sc-90vv8b-3 dSSarT">

@@ -16,6 +16,11 @@
 
 }
 
+.NavCategoryLogo {
+  height: 32px;
+  width: 50px;
+}
+
 .CategoryComponents {
   padding-left: 5rem !important;
 }
@@ -83,3 +88,21 @@
   background-color: whitesmoke;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 6px 0px;
 }
+
+@media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
+  .navbar-brand>img {
+    height: 150px;
+  }
+
+  .NavCategoryLogo {
+    height: 20px;
+    width: 40px;
+  }
+
+  .NavCategory {
+    font-size: 1rem !important;
+  }
+
+}
+
+@media screen and (min-width: 991.9px) and (max-width: 1024.1px) {}

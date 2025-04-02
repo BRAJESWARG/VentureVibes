@@ -292,12 +292,6 @@ a {
     margin-top: 6px;
 }
 
-.hQzkPE {
-    padding: 0px;
-    align-items: center;
-    width: 50%;
-}
-
 .tbBNw {
     padding: 0px;
     align-items: center;
@@ -314,7 +308,7 @@ a {
     color: rgb(34, 116, 224);
 }
 
-.gIXzUC {
+.gIXzUCB {
     width: 75%;
     flex: 2 1 0%;
 }
@@ -541,4 +535,33 @@ a {
     width: 1.3rem;
     height: 1.2rem;
     left: 50%;
+}
+
+
+@media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
+    .kCFGJC {
+        width: 80%;
+    }
+
+    .gIXzUCB {
+        width: 61%;
+        flex: 2 1 0%;
+    }
+
+    .gpDZNN {
+        padding-right: 0px;
+        width: 10%;
+    }
+
+    .iZHNjh {
+        font-size: 0.8rem;
+    }
+
+    .cUApqs {
+        font-size: 0.8rem;
+    }
+
+    .fjWUzF {
+        font-size: 0.8rem;
+    }
 }

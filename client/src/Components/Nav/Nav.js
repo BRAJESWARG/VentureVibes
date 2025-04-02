@@ -78,23 +78,23 @@ const NavComponent = () => {
             navbarScroll
           >
             <Nav.Link href='/Hotels' className='NavCategory' >
-              <img src={LogoHotel} height="32rem" width='50rem' alt="LogoHotel" />
+              <img src={LogoHotel} className='NavCategoryLogo' alt="LogoHotel" />
               Hotels
             </Nav.Link>
             <Nav.Link href='/Flights' className='NavCategory' >
-              <img src={LogoFlight} height="32rem" width='60rem' alt="LogoFlight" />
+              <img src={LogoFlight} className='NavCategoryLogo' alt="LogoFlight" />
               Flights
             </Nav.Link>
             <Nav.Link href='/Train' className='NavCategory' >
-              <img src={LogoTrain} height="32rem" width='60rem' alt="LogoTrain" />
+              <img src={LogoTrain} className='NavCategoryLogo' alt="LogoTrain" />
               Train
             </Nav.Link>
             <Nav.Link href='/Bus' className='NavCategory' >
-              <img src={LogoBus} height="32rem" width='60rem' alt="LogoBus" />
+              <img src={LogoBus} className='NavCategoryLogo' alt="LogoBus" />
               Bus
             </Nav.Link>
             <Nav.Link href='/Cab' className='NavCategory' >
-              <img src={LogoCab} height="32rem" width='60rem' alt="LogoCab" />
+              <img src={LogoCab} className='NavCategoryLogo' alt="LogoCab" />
               Cab
             </Nav.Link>
           </Nav>
@@ -147,6 +147,103 @@ const NavComponent = () => {
 
           </MDBContainer>
         </Modal.Body>
+        {
+          // <Modal.Body>
+          //   <form className='' onSubmit={handleSubmit}>
+          //     <input
+          //       label="First Name"
+          //       variant="filled"
+          //       required
+          //       value={firstName}
+          //       onChange={(e) => setFirstName(e.target.value)}
+          //     />
+          //     <input
+          //       label="Last Name"
+          //       variant="filled"
+          //       required
+          //       value={lastName}
+          //       onChange={(e) => setLastName(e.target.value)}
+          //     />
+          //     <input
+          //       label="Email"
+          //       variant="filled"
+          //       type="email"
+          //       required
+          //       value={email}
+          //       onChange={(e) => setEmail(e.target.value)}
+          //     />
+          //     <input
+          //       label="Password"
+          //       variant="filled"
+          //       type="password"
+          //       required
+          //       value={password}
+          //       onChange={(e) => setPassword(e.target.value)}
+          //     />
+          //     <div>
+          //       <Button variant="contained" onClick={handleClose}>
+          //         Cancel
+          //       </Button>
+          //       <Button type="submit" variant="contained" onClick={handleThankYouShow} color="primary">
+          //         Signup
+          //       </Button>
+          //     </div>
+          //   </form>
+          //   {
+          //     // <form
+          //     //   onSubmit={submitHandler}
+          //     // >
+
+          //     //   <div className="name-row">
+          //     //     <input
+          //     //       type="text"
+          //     //       required
+          //     //       placeholder="First Name"
+          //     //       onChange={handleChange}
+          //     //       name="firstName"
+          //     //       value={formData.firstName}
+          //     //     />
+          //     //     <input
+          //     //       type="text"
+          //     //       required
+          //     //       placeholder="Last Name"
+          //     //       onChange={handleChange}
+          //     //       name="lastName"
+          //     //       value={formData.lastName}
+          //     //     />
+          //     //   </div>
+
+          //     //   <div className="contact-row">
+          //     //     <input
+          //     //       type="email"
+          //     //       required
+          //     //       placeholder="Email Address"
+          //     //       onChange={handleChange}
+          //     //       name="email"
+          //     //       value={formData.email}
+          //     //     />
+
+          //     //     <input
+          //     //       type="Telephone Number"
+          //     //       placeholder="Telephone Number"
+          //     //       onChange={handleChange}
+          //     //       name="telephoneNumber"
+          //     //       value={formData.telephoneNumber}
+          //     //     />
+          //     //   </div>
+
+          //     //   <Modal.Footer>
+          //     //     <Button variant="secondary" onClick={handleClose}>
+          //     //       Close
+          //     //     </Button>
+          //     //     <Button variant="primary" onClick={handleThankYouShow} className="btn" type="submit">
+          //     //       Submit
+          //     //     </Button>
+          //     //   </Modal.Footer>
+          //     // </form>
+          //   }
+          // </Modal.Body>
+        }
       </Modal>
       <Modal
         show={thankYoushow}

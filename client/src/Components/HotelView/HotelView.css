@@ -604,24 +604,11 @@
     white-space: normal;
 }
 
-.iMdzTO {
-    display: flex;
-    align-items: center;
-    margin-bottom: 8px;
-}
-
 .dZZtel {
     display: flex;
     align-items: center;
     gap: 8px;
     /* margin-top: 1.2rem; */
-}
-
-.rCBfm {
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: space-between;
 }
 
 .gGHYhq {
@@ -736,13 +723,6 @@
     padding: 0.8rem 1.2rem 0rem 0px;
 }
 
-.rCBfm {
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: space-between;
-}
-
 .liohMR {
     padding: 1.2rem;
     min-width: 12rem;
@@ -786,13 +766,6 @@ ul {
     margin-bottom: 0px;
 }
 
-.rCBfm {
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: space-between;
-}
-
 .jhXONO {
     display: flex;
     align-items: center;
@@ -821,13 +794,6 @@ ul {
     margin: 1rem 1.5rem;
     border: 0.1rem solid rgb(228, 228, 228);
     border-radius: 0.8rem;
-}
-
-.rCBfm {
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: space-between;
 }
 
 .knnNaM {
@@ -905,13 +871,6 @@ ul {
     display: flex;
 }
 
-.rCBfm {
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: space-between;
-}
-
 .WcUSk {
     display: flex;
     align-items: center;
@@ -953,4 +912,41 @@ ul {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 68px;
+}
+
+
+@media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
+
+    .ccHfbG {
+        font-size: 16px;
+    }
+
+    .iMdzTO {
+        font-size: 14px;
+    }
+
+    .main-image {
+        width: 300px;
+        height: 254px;
+    }
+
+    .thumbnail {
+        width: 58PX;
+        height: 35px;
+    }
+
+    .viewAllBox {
+        left: 239px;
+        bottom: 45px;
+        width: 58px;
+        height: 50px;
+    }
+
+    .viewAllBoxImage {
+        width: 58PX;
+    }
+
+    .viewAllBoxText {
+        right: 8px;
+    }
 }

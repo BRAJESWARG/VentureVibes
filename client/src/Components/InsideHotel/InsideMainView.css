@@ -10,6 +10,10 @@
     padding: 2rem;
 }
 
+.InsideMainViewChild>div {
+    width: 100%;
+}
+
 .cSraKB {
     display: flex;
     align-items: center;
@@ -1077,4 +1081,91 @@ ghgJFj {
 .rightBox {
     margin-left: 10px;
     margin-top: 15px;
+}
+
+@media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
+    .InsideMainView {
+        width: 90%;
+    }
+
+    .InsideMainView-image {
+        width: 430px;
+    }
+
+    .AoXaW {
+        font-size: 16px;
+    }
+
+    .iINLVi {
+        font-size: 0.8rem;
+    }
+
+    .dtSHLP {
+        width: 146px;
+    }
+
+    .hyxOAP {
+        font-size: 0.8rem;
+    }
+
+    .gnnIdA {
+        font-size: 0.6rem;
+    }
+
+    .kjYceN {
+        width: 45px;
+        height: 32px;
+    }
+
+    .bHFLpI {
+        width: 128px;
+    }
+
+    .evERWw {
+        width: 45px;
+        height: 32px;
+    }
+
+    .hRzPvT {
+        padding-left: 2.5rem;
+    }
+
+    .cFqHdv {
+        font-size: 12px;
+    }
+
+    .csEaWM {
+        font-size: 1rem;
+    }
+
+    .eAlRyj {
+        font-size: 0.6rem;
+    }
+
+    .bvCGaC span {
+        font-size: 0.6rem;
+    }
+
+    .hAWoHt {
+        font-size: 0.8rem;
+    }
+
+    .clmBJd {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .bpsfFU {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .xcwlX {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .eLINGK>p {
+        font-size: 0.7rem;
+    }
 }

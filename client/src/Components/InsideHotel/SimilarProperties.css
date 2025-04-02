@@ -242,7 +242,36 @@
     width: 34% !important;
     margin-right: 10px;
 }
+
 .similarHotelCard {
     background: rgb(245, 245, 244) !important;
     max-height: 660px;
+}
+
+
+@media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
+    .SimilarProperties-container {
+        width: 80%;
+    }
+
+    .guwHAy {
+        width: 33%;
+    }
+
+    .Card-Img {
+        margin: 1rem;
+        width: 232px !important;
+    }
+
+    .similarHotelCardCointaner {
+        width: 66%;
+    }
+
+    .eeTyKB {
+        font-size: 1rem;
+    }
+
+    .iUNbDh {
+        font-size: 1rem;
+    }
 }

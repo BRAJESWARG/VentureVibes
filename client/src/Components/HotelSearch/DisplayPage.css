@@ -138,11 +138,6 @@ ul {
     align-items: center;
 }
 
-.fsTdCE {
-    padding-right: 1.2rem;
-    width: 16.5rem;
-}
-
 .dhbsSR {
     line-height: normal;
     font-size: 12px;
@@ -151,22 +146,6 @@ ul {
     padding-bottom: 0.5rem;
     padding-left: 0.2rem;
     display: flex;
-}
-
-.kNWLrS {
-    background-color: rgb(255, 255, 255);
-    color: rgb(34, 34, 34);
-    border: none;
-    line-height: normal;
-    font-size: 16px;
-    font-weight: 500;
-    display: block;
-    width: 100%;
-    height: 2.8rem;
-    padding: 1rem 1rem 1.2rem;
-    border-radius: 0.6rem;
-    flex-direction: row;
-    align-items: center;
 }
 
 .idfXAf {
@@ -183,22 +162,6 @@ ul {
     padding-bottom: 0.5rem;
     padding-left: 0.2rem;
     display: flex;
-}
-
-.kNWLrS {
-    background-color: rgb(255, 255, 255);
-    color: rgb(34, 34, 34);
-    border: none;
-    line-height: normal;
-    font-size: 16px;
-    font-weight: 500;
-    display: block;
-    width: 100%;
-    height: 2.8rem;
-    padding: 1rem 1rem 1.2rem;
-    border-radius: 0.6rem;
-    flex-direction: row;
-    align-items: center;
 }
 
 .hDRTlP {
@@ -407,4 +370,69 @@ ul {
     min-width: 350px;
     max-height: 50vh;
     overflow-y: auto;
+}
+
+@media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
+    .result-box {
+        width: 90%;
+    }
+
+    .edQnfF {
+        width: 90%;
+    }
+
+    .displayHotelsContainer {
+        margin-top: -1.5em;
+    }
+
+    .cZkTVY {
+        font-size: 10px;
+    }
+
+    /* .cGELZI {
+        font-size: 12px;
+    } */
+
+    .kNWLrS {
+        font-size: 13px;
+    }
+
+    .hDRTlP {
+        font-size: 15px;
+        width: 10rem;
+    }
+
+    .adultsChildRoomInput {
+        width: 1rem;
+    }
+
+    .adultsChildRoomBox:nth-child(3) {
+        padding-right: 0rem;
+    }
+
+    .hDRTlP:hover {
+        width: 10.02rem;
+    }
+
+    .gwpVPd {
+        width: 80%;
+    }
+
+    .fsTdCE {
+        width: 8.5rem;
+    }
+
+
+
+    .eWVEtz {
+        max-width: 90%;
+    }
+
+    .hYyKIP>span {
+        font-size: 12px;
+    }
+
+    .kkTVCa>span {
+        font-size: 12px;
+    }
 }
