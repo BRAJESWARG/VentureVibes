@@ -372,7 +372,131 @@ ul {
     overflow-y: auto;
 }
 
+/* @media screen and (min-width: 991.9px) {
+    .result-box {
+        width: 90%;
+    }
+
+    .edQnfF {
+        width: 90%;
+    }
+
+    .displayHotelsContainer {
+        margin-top: -1.5em;
+    }
+
+    .cZkTVY {
+        font-size: 10px;
+    }
+
+    .kNWLrS {
+        font-size: 13px;
+    }
+
+    .hDRTlP {
+        font-size: 15px;
+        width: 10rem;
+    }
+
+    .adultsChildRoomInput {
+        width: 1rem;
+    }
+
+    .adultsChildRoomBox:nth-child(3) {
+        padding-right: 0rem;
+    }
+
+    .hDRTlP:hover {
+        width: 10.02rem;
+    }
+
+    .gwpVPd {
+        width: 80%;
+    }
+
+    .fsTdCE {
+        width: 8.5rem;
+    }
+
+    .eWVEtz {
+        max-width: 90%;
+    }
+
+    .hYyKIP>span {
+        font-size: 12px;
+    }
+
+    .kkTVCa>span {
+        font-size: 12px;
+    }
+} */
+
 @media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
+    .result-box {
+        width: 90%;
+    }
+
+    .edQnfF {
+        width: 90%;
+    }
+
+    .displayHotelsContainer {
+        margin-top: -1.5em;
+    }
+
+    .cZkTVY {
+        font-size: 10px;
+    }
+
+    /* .cGELZI {
+        font-size: 12px;
+    } */
+
+    .kNWLrS {
+        font-size: 13px;
+    }
+
+    .hDRTlP {
+        font-size: 15px;
+        width: 10rem;
+    }
+
+    .adultsChildRoomInput {
+        width: 1rem;
+    }
+
+    .adultsChildRoomBox:nth-child(3) {
+        padding-right: 0rem;
+    }
+
+    .hDRTlP:hover {
+        width: 10.02rem;
+    }
+
+    .gwpVPd {
+        width: 80%;
+    }
+
+    .fsTdCE {
+        width: 8.5rem;
+    }
+
+
+
+    .eWVEtz {
+        max-width: 90%;
+    }
+
+    .hYyKIP>span {
+        font-size: 12px;
+    }
+
+    .kkTVCa>span {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1024.1px) and (max-width: 1100.1px) {
     .result-box {
         width: 90%;
     }

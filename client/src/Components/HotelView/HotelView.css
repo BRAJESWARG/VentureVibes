@@ -950,3 +950,39 @@ ul {
         right: 8px;
     }
 }
+
+@media screen and (min-width: 1024.1px) and (max-width: 1100.1px) {
+
+    .ccHfbG {
+        font-size: 16px;
+    }
+
+    .iMdzTO {
+        font-size: 14px;
+    }
+
+    .main-image {
+        width: 300px;
+        height: 254px;
+    }
+
+    .thumbnail {
+        width: 58PX;
+        height: 35px;
+    }
+
+    .viewAllBox {
+        left: 239px;
+        bottom: 45px;
+        width: 58px;
+        height: 50px;
+    }
+
+    .viewAllBoxImage {
+        width: 58PX;
+    }
+
+    .viewAllBoxText {
+        right: 8px;
+    }
+}

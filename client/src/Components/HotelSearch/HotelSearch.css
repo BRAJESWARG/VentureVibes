@@ -177,3 +177,25 @@ body {
     grid-template-columns: 20.5rem 10rem 8rem 5rem;
   }
 }
+
+@media screen and (min-width: 1024.1px) and (max-width: 1100.1px) {
+  .result-box {
+    margin-top: 7rem;
+  }
+
+  .container {
+    width: 90% !important;
+  }
+
+  .hotelSearch-container {
+    margin-top: -10rem;
+  }
+
+  .css-16wblaj-MuiInputBase-input-MuiOutlinedInput-input {
+    height: 1em, !important;
+  }
+
+  .extra-section {
+    grid-template-columns: 20.5rem 10rem 8rem 5rem;
+  }
+}

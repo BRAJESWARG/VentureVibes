@@ -78,3 +78,9 @@
         font-size: 0.85rem;
     }
 }
+
+@media screen and (min-width: 1024.1px) and (max-width: 1100.1px) {
+    .llgclM {
+        font-size: 0.9rem;
+    }
+}

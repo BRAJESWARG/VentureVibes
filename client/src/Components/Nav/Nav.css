@@ -105,4 +105,18 @@
 
 }
 
-@media screen and (min-width: 991.9px) and (max-width: 1024.1px) {}
+@media screen and (min-width: 1024.1px) and (max-width: 1100.1px) {
+  .navbar-brand>img {
+    height: 150px;
+  }
+
+  .NavCategoryLogo {
+    height: 20px;
+    width: 40px;
+  }
+
+  .NavCategory {
+    font-size: 1rem !important;
+  }
+
+}

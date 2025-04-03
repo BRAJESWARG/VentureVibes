@@ -85,9 +85,103 @@
 }
 
 
+/* @media screen and (min-width: 991.9px) {
+    .MultiCard {
+        width: 90%;
+    }
 
+    .card-group>.card {
+        flex-direction: column;
+    }
+
+    .CardImg {
+        width: 100% !important;
+    }
+
+    .CardImg {
+        height: 200px !important;
+        width: 100% !important;
+    }
+
+    .IntroContainer-A {
+        height: 316px;
+    }
+
+    .IntroContainer-B {
+        height: 316px;
+    }
+
+    .introImg2 {
+        height: 150px;
+    }
+
+    .introContent2 {
+        top: 112px;
+        right: -96px;
+    }
+
+    .card-footer {
+        margin-top: 40px;
+    }
+
+    .MultiCard-container {
+        padding-top: 0px;
+    }
+
+    .MultiCard>h1 {
+        padding-bottom: 0px !important;
+    }
+} */
 
 @media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
+    .MultiCard {
+        width: 90%;
+    }
+
+    .card-group>.card {
+        flex-direction: column;
+    }
+
+    .CardImg {
+        width: 100% !important;
+    }
+
+    .CardImg {
+        height: 200px !important;
+        width: 100% !important;
+    }
+
+    .IntroContainer-A {
+        height: 316px;
+    }
+
+    .IntroContainer-B {
+        height: 316px;
+    }
+
+    .introImg2 {
+        height: 150px;
+    }
+
+    .introContent2 {
+        top: 112px;
+        right: -96px;
+    }
+
+    .card-footer {
+        margin-top: 40px;
+    }
+
+    .MultiCard-container {
+        padding-top: 0px;
+    }
+
+    .MultiCard>h1 {
+        padding-bottom: 0px !important;
+    }
+}
+
+@media screen and (min-width: 1024.9px) and (max-width: 1100.1px) {
     .MultiCard {
         width: 90%;
     }

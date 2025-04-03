@@ -94,7 +94,20 @@
 }
 
 
+
+/* @media screen and (min-width: 991.9px) {
+    .IntroComponent {
+        width: 90%;
+    }
+} */
+
 @media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
+    .IntroComponent {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1024.1px) and (max-width: 1100.1px) {
     .IntroComponent {
         width: 90%;
     }

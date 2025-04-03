@@ -189,6 +189,12 @@
     }
 }
 
+@media screen and (min-width: 1024.1px) and (max-width: 1100.1px) {
+    .jKkVic {
+        width: 80%;
+    }
+}
+
 
 
 /* ////////////////////////////////////Amenities////////////////////////////////////////////////////////////// */
@@ -310,7 +316,11 @@
     }
 }
 
-
+@media screen and (min-width: 1024.1px) and (max-width: 1100.1px) {
+    .fWRZBM {
+        width: 80%;
+    }
+}
 
 
 
@@ -414,6 +424,12 @@
 
 
 @media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
+    .bJrRvy {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1024.1px) and (max-width: 1100.1px) {
     .bJrRvy {
         width: 80%;
     }
@@ -742,6 +758,20 @@
 }
 
 @media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
+    .dJAAfN {
+        width: 80%;
+    }
+
+    .kfcvgo {
+        flex-direction: column;
+    }
+
+    .jwAyyK {
+        width: 68%;
+    }
+}
+
+@media screen and (min-width: 1024.1px) and (max-width: 1100.1px) {
     .dJAAfN {
         width: 80%;
     }
