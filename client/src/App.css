@@ -295,20 +295,14 @@
   }
 } */
 
-@media screen and (min-width: 991.9px) and (max-width: 1023.9px) {
+@media screen and (min-width: 991.9px) and (max-width: 1199.9px) {
   .blogBody {
     margin-top: 4rem;
   }
 }
 
-@media screen and (min-width: 1023.9px) and (max-width: 1099.9px) {
+@media screen and (min-width: 1199.9px) and (max-width: 1399.9px) {
   .blogBody {
-    margin-top: 4rem;
-  }
-}
-
-@media screen and (min-width: 1099.9px) and (max-width: 1199.9px) {
-  .contentForm {
-    margin-top: 4rem;
+    margin-top: 4.5rem;
   }
 }

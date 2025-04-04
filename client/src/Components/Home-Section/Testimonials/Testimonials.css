@@ -242,3 +242,10 @@ h1 {
         max-width: 960px;
     }
 }
+
+@media screen and (min-width: 1199.9px) and (max-width: 1399.9px) {
+    .Testimonials {
+        width: 90%;
+        max-width: 1140px;
+    }
+}

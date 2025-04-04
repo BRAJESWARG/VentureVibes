@@ -182,6 +182,13 @@
     }
 }
 
+@media screen and (min-width: 1199.9px) and (max-width: 1399.9px) {
+    .MultiCard {
+        width: 90%;
+        max-width: 1140px;
+    }
+}
+
 @media (min-width: 576px) {
 
     .container,

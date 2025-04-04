@@ -202,20 +202,13 @@ body {
   }
 }
 
-@media (min-width: 576px) {
-
-  .container,
-  .container-sm {
-    max-width: 540px;
+@media screen and (min-width: 1199.9px) and (max-width: 1399.9px) {
+  .container {
+    width: 90% !important;
   }
-}
 
-@media (min-width: 768px) {
-
-  .container,
-  .container-md,
-  .container-sm {
-    max-width: 720px;
+  .hotelSearch-container {
+    margin-top: -12rem;
   }
 }
 

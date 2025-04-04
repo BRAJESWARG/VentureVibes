@@ -372,12 +372,15 @@ ul {
     overflow-y: auto;
 }
 
-/* @media screen and (min-width: 991.9px) {
+
+@media screen and (min-width: 991.9px) and (max-width: 1199.9px) {
     .result-box {
+        max-width: 960px;
         width: 90%;
     }
 
     .edQnfF {
+        max-width: 960px;
         width: 90%;
     }
 
@@ -388,6 +391,10 @@ ul {
     .cZkTVY {
         font-size: 10px;
     }
+
+    /* .cGELZI {
+        font-size: 12px;
+    } */
 
     .kNWLrS {
         font-size: 13px;
@@ -418,6 +425,8 @@ ul {
         width: 8.5rem;
     }
 
+
+
     .eWVEtz {
         max-width: 90%;
     }
@@ -429,30 +438,27 @@ ul {
     .kkTVCa>span {
         font-size: 12px;
     }
-} */
+}
 
-@media screen and (min-width: 991.9px) and (max-width: 1199.9px) {
+@media screen and (min-width: 1199.9px) and (max-width: 1399.9px) {
     .result-box {
-        max-width: 960px;
+        max-width: 1140px;
         width: 90%;
+        margin-top: 6rem;
     }
 
     .edQnfF {
-        max-width: 960px;
+        max-width: 1140px;
         width: 90%;
     }
 
     .displayHotelsContainer {
-        margin-top: -1.5em;
+        margin-top: -2em;
     }
 
     .cZkTVY {
         font-size: 10px;
     }
-
-    /* .cGELZI {
-        font-size: 12px;
-    } */
 
     .kNWLrS {
         font-size: 13px;

@@ -566,3 +566,32 @@ a {
         font-size: 0.8rem;
     }
 }
+
+@media screen and (min-width: 1199.9px) and (max-width: 1399.9px) {
+    .kCFGJC {
+        max-width: 1140px;
+        width: 80%;
+    }
+
+    .gIXzUCB {
+        width: 61%;
+        flex: 2 1 0%;
+    }
+
+    .gpDZNN {
+        padding-right: 0px;
+        width: 10%;
+    }
+
+    .iZHNjh {
+        font-size: 0.8rem;
+    }
+
+    .cUApqs {
+        font-size: 0.8rem;
+    }
+
+    .fjWUzF {
+        font-size: 0.8rem;
+    }
+}
