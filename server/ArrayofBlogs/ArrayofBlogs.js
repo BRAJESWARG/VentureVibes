@@ -47,8 +47,8 @@ const ArrayofBlogs = [
             },
             {
                 ID: 3,
-                original: "https://foto.hrsstatic.com/fotos/0/2/800/458/80/000000/http%3A%2F%2Ffoto-origin.hrsstatic.com%2Ffoto%2Fdms%2F171246%2FAMADEUS%2Fa6d194fe491b4181b0327f64276457eb.jpeg/906a48df9f9519eb939c6d7b02a13534/2000%2C1333/6/ITC_Royal_Bengal_a_Luxury_Collection_Hotel_Kolkata-Kolkata-Hotel_bar-1-171246.jpg",
-                thumbnail: "https://foto.hrsstatic.com/fotos/0/2/800/458/80/000000/http%3A%2F%2Ffoto-origin.hrsstatic.com%2Ffoto%2Fdms%2F171246%2FAMADEUS%2Fa6d194fe491b4181b0327f64276457eb.jpeg/906a48df9f9519eb939c6d7b02a13534/2000%2C1333/6/ITC_Royal_Bengal_a_Luxury_Collection_Hotel_Kolkata-Kolkata-Hotel_bar-1-171246.jpg"
+                original: "https://cache.marriott.com/content/dam/marriott-renditions/CCULR/cculr-darjeeling-lounge-9261-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=750px:*",
+                thumbnail: "https://cache.marriott.com/content/dam/marriott-renditions/CCULR/cculr-darjeeling-lounge-9261-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=750px:*"
             },
             {
                 ID: 4,
