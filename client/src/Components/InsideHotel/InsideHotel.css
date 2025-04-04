@@ -183,26 +183,7 @@
     color: rgb(34, 116, 224);
 }
 
-@media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
-    .jKkVic {
-        width: 80%;
-    }
-}
-
-@media screen and (min-width: 1024.1px) and (max-width: 1100.1px) {
-    .jKkVic {
-        width: 80%;
-    }
-}
-
-
-
-/* ////////////////////////////////////Amenities////////////////////////////////////////////////////////////// */
-
-
-
-
-
+/* /////////////////////////////////////////////////Host////////////////////////////////////////////////////////////// */
 
 
 .fWRZBM {
@@ -310,29 +291,12 @@
     border-radius: 50%;
 }
 
-@media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
-    .fWRZBM {
-        width: 80%;
-    }
-}
-
-@media screen and (min-width: 1024.1px) and (max-width: 1100.1px) {
-    .fWRZBM {
-        width: 80%;
-    }
-}
-
-
 
 
 
 
 
 /* ////////////////////////////////////PropertyPolicies////////////////////////////////////////////////////////////// */
-
-
-
-
 
 
 .bJrRvy {
@@ -423,33 +387,11 @@
 }
 
 
-@media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
-    .bJrRvy {
-        width: 80%;
-    }
-}
-
-@media screen and (min-width: 1024.1px) and (max-width: 1100.1px) {
-    .bJrRvy {
-        width: 80%;
-    }
-}
-
-
 
 
 
 
 /* ////////////////////////////////////////////////Guest Reviews///////////////////////////////////////////////////////////////// */
-
-
-
-
-
-
-
-
-
 
 
 .GuestReviews {
@@ -757,22 +699,37 @@
     padding: 2rem;
 }
 
-@media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
-    .dJAAfN {
+@media screen and (min-width: 991.9px) and (max-width: 1199.9px) {
+
+    /* ////////////////////////////////////Amenities////////////////////////////////////////////////////////////// */
+
+    .jKkVic {
+        max-width: 960px;
         width: 80%;
     }
 
-    .kfcvgo {
-        flex-direction: column;
+
+    /* ////////////////////////////////////////Host////////////////////////////////////////////////////////////////// */
+
+
+    .fWRZBM {
+        max-width: 960px;
+        width: 80%;
     }
 
-    .jwAyyK {
-        width: 68%;
-    }
-}
 
-@media screen and (min-width: 1024.1px) and (max-width: 1100.1px) {
+    /* ////////////////////////////////////PropertyPolicies////////////////////////////////////////////////////////////// */
+
+
+    .bJrRvy {
+        max-width: 960px;
+        width: 80%;
+    }
+
+    /* ////////////////////////////////////////////////Guest Reviews///////////////////////////////////////////////////////////////// */
+
     .dJAAfN {
+        max-width: 960px;
         width: 80%;
     }
 

@@ -10,8 +10,6 @@ const Intro = ({ yourTrip }) => {
     return (
         <div className="Intro" >
             <div className="IntroComponent" >
-                {/* <h3>Popular Destinations</h3>
-                <p>We have selected some best locations around the world for you.</p> */}
                 <h3>Your Heart's GPS: Set to Us!</h3>
                 <p>Choose your destination... but be warned, wherever you go, We might just follow.</p>
 
@@ -38,34 +36,6 @@ const Intro = ({ yourTrip }) => {
                             <p className='introTitle1'>Kedarnath</p>
                         </div>
                     </div>
-
-
-                    {/* <div className='IntroContainer-2'>
-                        {yourTrip.filter((value) => (value.ID === '2') && (value.Category === "Advertisement")).map((val, index) => (
-                            <div key={index} className='box'>
-                                <Link to={`/article/${val.Category}/${val.ID}`}>
-                                    <img src={val.Image1} className='introImg2 CommonImg' alt='' />
-                                    <div className='introContent2'>
-                                        <p className='introTitle2'>{val.Title.substring(0, 59)}.</p>
-                                        <p className='introCategory2'>{val.Category} / {val.Date}</p>
-                                    </div>
-                                </Link>
-                            </div>
-                        ))}
-
-                        {yourTrip.filter((value) => (value.ID === '2') && (value.Category === "Advertisement")).map((val, index) => (
-                            <div key={index} className='box'>
-                                <Link to={`/article/${val.Category}/${val.ID}`}>
-                                    <img src={val.Image2} className='introImg2 CommonImg' alt='' />
-                                    <div className='introContent2'>
-                                        <p className='introTitle2'>{val.Title.substring(0, 59)}.</p>
-                                        <p className='introCategory2'>{val.Category} / {val.Date}</p>
-                                    </div>
-                                </Link>
-                            </div>
-                        ))}
-                    </div> */}
-
 
                     <div className='IntroContainer-2'>
                         <div className='box'>

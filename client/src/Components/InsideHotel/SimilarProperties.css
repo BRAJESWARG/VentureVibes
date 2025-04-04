@@ -249,35 +249,9 @@
 }
 
 
-@media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
+@media screen and (min-width: 991.9px) and (max-width: 1199.9px) {
     .SimilarProperties-container {
-        width: 80%;
-    }
-
-    .guwHAy {
-        width: 33%;
-    }
-
-    .Card-Img {
-        margin: 1rem;
-        width: 232px !important;
-    }
-
-    .similarHotelCardCointaner {
-        width: 66%;
-    }
-
-    .eeTyKB {
-        font-size: 1rem;
-    }
-
-    .iUNbDh {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (min-width: 1024.1px) and (max-width: 1100.1px) {
-    .SimilarProperties-container {
+        max-width: 960px;
         width: 80%;
     }
 

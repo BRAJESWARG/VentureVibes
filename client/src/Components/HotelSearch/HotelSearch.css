@@ -156,7 +156,24 @@ body {
 
 @media screen and (min-width: 480.1px) and (max-width: 480.1px) {}
 
-@media screen and (min-width: 991.9px) and (max-width: 1024.1px) {
+@media screen and (min-width: 576px) and (max-width: 767.9px) {
+
+  .container,
+  .container-sm {
+    max-width: 540px;
+  }
+}
+
+@media screen and (min-width: 767.9px) and (max-width: 991.9px) {
+
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 991.9px) and (max-width: 1199.9px) {
   .result-box {
     margin-top: 7rem;
   }
@@ -178,24 +195,49 @@ body {
   }
 }
 
-@media screen and (min-width: 1024.1px) and (max-width: 1100.1px) {
-  .result-box {
-    margin-top: 7rem;
-  }
-
-  .container {
-    width: 90% !important;
-  }
+@media screen and (min-width: 1099.9px) and (max-width: 1199.9px) {
 
   .hotelSearch-container {
-    margin-top: -10rem;
+    margin-top: -11rem;
   }
+}
 
-  .css-16wblaj-MuiInputBase-input-MuiOutlinedInput-input {
-    height: 1em, !important;
+@media (min-width: 576px) {
+
+  .container,
+  .container-sm {
+    max-width: 540px;
   }
+}
 
-  .extra-section {
-    grid-template-columns: 20.5rem 10rem 8rem 5rem;
+@media (min-width: 768px) {
+
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
   }
 }
