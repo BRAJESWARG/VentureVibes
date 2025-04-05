@@ -46,3 +46,73 @@ const ChildComponent = ({ sendDataToParent }) => {
 };
 
 export default ChildComponent;
+
+
+
+
+
+
+
+
+HotelSearchNav.js:147 Warning: You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+    at input
+    at div
+    at div
+    at div
+    at div
+    at div
+    at div
+    at section
+    at HotelSearchNav (http://localhost:3000/main.c86c17e….hot-update.js:33:3)
+    at div
+    at DisplayPage (http://localhost:3000/main.1ae891b….hot-update.js:37:3)
+    at HotelSearch (http://localhost:3000/main.f9e8c5c….hot-update.js:61:66)
+    at div
+    at div
+    at AllCategory (http://localhost:3000/static/js/bundle.js:289:66)
+    at RenderedRoute (http://localhost:3000/static/js/bundle.js:113710:5)
+    at Routes (http://localhost:3000/static/js/bundle.js:114444:5)
+    at div
+    at Router (http://localhost:3000/static/js/bundle.js:114378:15)
+    at BrowserRouter (http://localhost:3000/static/js/bundle.js:112278:5)
+    at App
+
+
+react-dom.development.js:86 Warning: Invalid DOM property `autocomplete`. Did you mean `autoComplete`?
+    at input
+    at div
+    at div
+    at div
+    at div
+    at div
+    at div
+    at section
+    at DisplayPage (http://localhost:3000/static/js/bundle.js:3154:3)
+    at HotelSearch (http://localhost:3000/static/js/bundle.js:3527:66)
+    at div
+    at div
+    at AllCategory (http://localhost:3000/static/js/bundle.js:289:66)
+    at RenderedRoute (http://localhost:3000/static/js/bundle.js:113725:5)
+    at Routes (http://localhost:3000/static/js/bundle.js:114459:5)
+    at div
+    at Router (http://localhost:3000/static/js/bundle.js:114393:15)
+    at BrowserRouter (http://localhost:3000/static/js/bundle.js:112293:5)
+    at App
+
+
+
+
+
+        modified:   src/App.css
+        modified:   src/Components/Home-Section/Intro/Intro.css
+        modified:   src/Components/Home-Section/MultiCarousel/CardCarousel.css
+        modified:   src/Components/Home-Section/Testimonials/Testimonials.css
+        modified:   src/Components/HotelSearch/DisplayPage.css
+        modified:   src/Components/HotelSearch/HotelSearch.css
+        modified:   src/Components/HotelView/HotelView.css
+        modified:   src/Components/InsideHotel/InsideHotel.css
+        modified:   src/Components/InsideHotel/InsideMainView.css
+        modified:   src/Components/InsideHotel/InsideNav.css
+        modified:   src/Components/InsideHotel/SimilarProperties.css
+        modified:   src/Components/InsideHotel/StayOptions.css
+        modified:   src/Components/Nav/Nav.css
